@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB891C12C1B6E5F0047BF67 /* TestWaveformEditorPerformanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB891C02C1B6E5F0047BF67 /* TestWaveformEditorPerformanceApp.swift */; };
+		FCB891C52C1B6E600047BF67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB891C42C1B6E600047BF67 /* Assets.xcassets */; };
+		FCB891C92C1B6E600047BF67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB891C82C1B6E600047BF67 /* Preview Assets.xcassets */; };
+		FCB891D62C1B6EB10047BF67 /* Waveform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB891D02C1B6EB10047BF67 /* Waveform.swift */; };
+		FCB891D72C1B6EB10047BF67 /* EditWaveformScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB891D12C1B6EB10047BF67 /* EditWaveformScreen.swift */; };
+		FCB891DA2C1B6EB10047BF67 /* MiniWaveform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB891D42C1B6EB10047BF67 /* MiniWaveform.swift */; };
+		FCB891DB2C1B6EB10047BF67 /* Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB891D52C1B6EB10047BF67 /* Handle.swift */; };
+		FCB891DD2C1B6EF10047BF67 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB891DC2C1B6EF10047BF67 /* SampleData.swift */; };
+		FCB891EC2C1B72380047BF67 /* GenerateTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB891EB2C1B72380047BF67 /* GenerateTask.swift */; };
+		FCB891EE2C1B7AA40047BF67 /* thanks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FCB891ED2C1B7AA40047BF67 /* thanks.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCB891BD2C1B6E5F0047BF67 /* TestWaveformEditorPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWaveformEditorPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB891C02C1B6E5F0047BF67 /* TestWaveformEditorPerformanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestWaveformEditorPerformanceApp.swift; sourceTree = "<group>"; };
+		FCB891C42C1B6E600047BF67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB891C62C1B6E600047BF67 /* TestWaveformEditorPerformance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestWaveformEditorPerformance.entitlements; sourceTree = "<group>"; };
+		FCB891C82C1B6E600047BF67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCB891D02C1B6EB10047BF67 /* Waveform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Waveform.swift; sourceTree = "<group>"; };
+		FCB891D12C1B6EB10047BF67 /* EditWaveformScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWaveformScreen.swift; sourceTree = "<group>"; };
+		FCB891D42C1B6EB10047BF67 /* MiniWaveform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniWaveform.swift; sourceTree = "<group>"; };
+		FCB891D52C1B6EB10047BF67 /* Handle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handle.swift; sourceTree = "<group>"; };
+		FCB891DC2C1B6EF10047BF67 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		FCB891EB2C1B72380047BF67 /* GenerateTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateTask.swift; sourceTree = "<group>"; };
+		FCB891ED2C1B7AA40047BF67 /* thanks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thanks.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB891BA2C1B6E5F0047BF67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB891B42C1B6E5F0047BF67 = {
+			isa = PBXGroup;
+			children = (
+				FCB891BF2C1B6E5F0047BF67 /* TestWaveformEditorPerformance */,
+				FCB891BE2C1B6E5F0047BF67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB891BE2C1B6E5F0047BF67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB891BD2C1B6E5F0047BF67 /* TestWaveformEditorPerformance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB891BF2C1B6E5F0047BF67 /* TestWaveformEditorPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				FCB891C02C1B6E5F0047BF67 /* TestWaveformEditorPerformanceApp.swift */,
+				FCB891ED2C1B7AA40047BF67 /* thanks.mp3 */,
+				FCB891DC2C1B6EF10047BF67 /* SampleData.swift */,
+				FCB891EB2C1B72380047BF67 /* GenerateTask.swift */,
+				FCB891CF2C1B6EB10047BF67 /* Waveform Views */,
+				FCB891C42C1B6E600047BF67 /* Assets.xcassets */,
+				FCB891C62C1B6E600047BF67 /* TestWaveformEditorPerformance.entitlements */,
+				FCB891C72C1B6E600047BF67 /* Preview Content */,
+			);
+			path = TestWaveformEditorPerformance;
+			sourceTree = "<group>";
+		};
+		FCB891C72C1B6E600047BF67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCB891C82C1B6E600047BF67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCB891CF2C1B6EB10047BF67 /* Waveform Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCB891D12C1B6EB10047BF67 /* EditWaveformScreen.swift */,
+				FCB891D02C1B6EB10047BF67 /* Waveform.swift */,
+				FCB891D42C1B6EB10047BF67 /* MiniWaveform.swift */,
+				FCB891D52C1B6EB10047BF67 /* Handle.swift */,
+			);
+			path = "Waveform Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB891BC2C1B6E5F0047BF67 /* TestWaveformEditorPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB891CC2C1B6E600047BF67 /* Build configuration list for PBXNativeTarget "TestWaveformEditorPerformance" */;
+			buildPhases = (
+				FCB891B92C1B6E5F0047BF67 /* Sources */,
+				FCB891BA2C1B6E5F0047BF67 /* Frameworks */,
+				FCB891BB2C1B6E5F0047BF67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWaveformEditorPerformance;
+			productName = TestWaveformEditorPerformance;
+			productReference = FCB891BD2C1B6E5F0047BF67 /* TestWaveformEditorPerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB891B52C1B6E5F0047BF67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FCB891BC2C1B6E5F0047BF67 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FCB891B82C1B6E5F0047BF67 /* Build configuration list for PBXProject "TestWaveformEditorPerformance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB891B42C1B6E5F0047BF67;
+			productRefGroup = FCB891BE2C1B6E5F0047BF67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB891BC2C1B6E5F0047BF67 /* TestWaveformEditorPerformance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB891BB2C1B6E5F0047BF67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB891EE2C1B7AA40047BF67 /* thanks.mp3 in Resources */,
+				FCB891C92C1B6E600047BF67 /* Preview Assets.xcassets in Resources */,
+				FCB891C52C1B6E600047BF67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB891B92C1B6E5F0047BF67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB891D72C1B6EB10047BF67 /* EditWaveformScreen.swift in Sources */,
+				FCB891EC2C1B72380047BF67 /* GenerateTask.swift in Sources */,
+				FCB891DB2C1B6EB10047BF67 /* Handle.swift in Sources */,
+				FCB891C12C1B6E5F0047BF67 /* TestWaveformEditorPerformanceApp.swift in Sources */,
+				FCB891DA2C1B6EB10047BF67 /* MiniWaveform.swift in Sources */,
+				FCB891DD2C1B6EF10047BF67 /* SampleData.swift in Sources */,
+				FCB891D62C1B6EB10047BF67 /* Waveform.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FCB891CA2C1B6E600047BF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCB891CB2C1B6E600047BF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FCB891CD2C1B6E600047BF67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestWaveformEditorPerformance/TestWaveformEditorPerformance.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestWaveformEditorPerformance/Preview Content\"";
+				DEVELOPMENT_TEAM = KTK253RKCQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWaveformEditorPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB891CE2C1B6E600047BF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestWaveformEditorPerformance/TestWaveformEditorPerformance.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestWaveformEditorPerformance/Preview Content\"";
+				DEVELOPMENT_TEAM = KTK253RKCQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestWaveformEditorPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB891B82C1B6E5F0047BF67 /* Build configuration list for PBXProject "TestWaveformEditorPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB891CA2C1B6E600047BF67 /* Debug */,
+				FCB891CB2C1B6E600047BF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB891CC2C1B6E600047BF67 /* Build configuration list for PBXNativeTarget "TestWaveformEditorPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB891CD2C1B6E600047BF67 /* Debug */,
+				FCB891CE2C1B6E600047BF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB891B52C1B6E5F0047BF67 /* Project object */;
+}
